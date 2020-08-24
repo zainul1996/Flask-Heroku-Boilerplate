@@ -5,7 +5,7 @@ Pre-Setup
 
 Setup
 1. git clone https://github.com/zainul1996/Flask-Heroku-Boilerplate.git && cd Flask-Heroku-Boilerplate && rm -rf .git
-2. source venv/bin/activate
+2. virtualenv venv && source venv/bin/activate
 3. pip install flask gunicorn
 
 Heroku
