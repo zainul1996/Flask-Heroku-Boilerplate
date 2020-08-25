@@ -1,18 +1,18 @@
 # PROPER STEPS TO SETUP
 
-Pre-Setup
+## Pre-Setup
 1. pip install virtualenv
 
-Setup
+## Setup
 1. git clone https://github.com/zainul1996/Flask-Heroku-Boilerplate.git && cd Flask-Heroku-Boilerplate && rm -rf .git
 2. virtualenv venv && source venv/bin/activate
 3. pip install flask gunicorn
 
-Heroku
+## Heroku
 1. Go to https://dashboard.heroku.com/apps
 2. Create new app <----- take note of the project name
 
-Push
+## Push
 1. git init && git add . && git commit -m "init"
 4. heroku login
 5. heroku git:remote -a {your-project-name} <---- use heroku project name
