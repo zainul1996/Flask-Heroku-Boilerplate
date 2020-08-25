@@ -15,5 +15,5 @@
 ## Push
 1. git init && git add . && git commit -m "init"
 4. heroku login
-5. heroku git:remote -a {your-project-name} _(use heroku project name)_
+5. heroku git:remote -a {***your-project-name***} _(use heroku project name)_
 6. git push heroku master
