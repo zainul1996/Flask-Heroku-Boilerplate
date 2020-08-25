@@ -10,10 +10,10 @@
 
 ## Heroku
 1. Go to https://dashboard.heroku.com/apps
-2. Create new app <----- take note of the project name
+2. Create new app _(take note of the project name)_
 
 ## Push
 1. git init && git add . && git commit -m "init"
 4. heroku login
-5. heroku git:remote -a {your-project-name} <---- use heroku project name
+5. heroku git:remote -a {your-project-name} _(use heroku project name)_
 6. git push heroku master
